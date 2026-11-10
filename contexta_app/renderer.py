@@ -65,7 +65,9 @@ def estimate_tokens(text: str) -> int:
             return max(1, len(encoder.encode(text)))
         except Exception:
             pass
-    return max(1, len(text) // 4)
+    # Round up: budgets add estimates line by line, and rounding down loses up to
+    # three quarters of a token per line, so a map could end up over its budget.
+    return max(1, -(-len(text) // 4))
 
 
 def _finalize_document(

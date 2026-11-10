@@ -6,6 +6,13 @@ Versioning: [Semantic Versioning](https://semver.org/)
 
 ---
 
+## [Unreleased]
+
+### Fixed
+- Offline (when tiktoken cannot fetch its `cl100k_base` encoding), `graph map` and the MCP `repo_map` tool could go 3–5% over the requested budget: the `len / 4` fallback rounded each line down, so a map added line by line undercounted. The fallback now rounds up, and `tests/test_offline_budget.py` checks that the map stays inside its budget without the encoding
+
+---
+
 ## [2.2.1] - 2026-10-24
 
 A fix release. **If you installed 2.2.0 or 2.0.0 from PyPI, `contexta` did not start** (`ModuleNotFoundError: No module named 'contexta'`); upgrade.
