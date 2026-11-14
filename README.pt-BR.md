@@ -9,7 +9,7 @@
 O Contexta lê o código, fica com os arquivos que importam para a tarefa, encaixa tudo no orçamento de tokens que você definir e remove prováveis segredos antes de qualquer coisa sair da sua máquina. Cole o pack em qualquer assistente, ou sirva por MCP para Claude Code, Cursor e Windsurf.
 
 [![Python](https://img.shields.io/badge/python-3.11%2B-12211c?style=flat-square)](https://python.org)
-[![License: MIT](https://img.shields.io/badge/license-MIT-12211c?style=flat-square)](LICENSE)
+[![License: AGPL v3](https://img.shields.io/badge/license-AGPL--3.0--or--later-12211c?style=flat-square)](LICENSE)
 [![Plataforma](https://img.shields.io/badge/plataforma-Windows%20%7C%20macOS%20%7C%20Linux-12211c?style=flat-square)]()
 [![Versão](https://img.shields.io/badge/vers%C3%A3o-2.2.1-12211c?style=flat-square)]()
 [![MCP](https://img.shields.io/badge/MCP-compat%C3%ADvel-12211c?style=flat-square)]()
@@ -387,4 +387,6 @@ Veja [CHANGELOG.md](CHANGELOG.md)
 
 ## Licença
 
-[MIT](LICENSE) © [pablokaua03](https://github.com/pablokaua03)
+[AGPL-3.0-or-later](LICENSE) © [Pablo Kauã Pereira Silva](https://github.com/kkauaps)
+
+As versões publicadas antes deste commit permanecem sob a licença MIT. Este commit e as versões seguintes são licenciados sob a GNU Affero General Public License v3.0 ou posterior.
