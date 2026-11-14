@@ -7,7 +7,7 @@ name = "contexta-ai"
 version = "2.2.1"
 description = "AI-native codebase context engine. Scans projects and serves intelligent context packs to Claude Code, Cursor, Windsurf, and any MCP-compatible tool."
 readme = "README.md"
-license = "MIT"
+license = "AGPL-3.0-or-later"
 requires-python = ">=3.11"
 authors = [{ name = "Pablo Kaua", email = "help@spacegroupusa.com" }]
 keywords = ["ai", "context", "mcp", "claude", "cursor", "codebase", "developer-tools"]
